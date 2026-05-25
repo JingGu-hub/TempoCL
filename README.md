@@ -39,7 +39,7 @@ Install Pytorch and the necessary dependencies.
 pip install -r requirements.txt
 ```
 
-To train a RoRLNet model on a dataset, run
+To train a TempoCL model on a dataset, run
 
 ```bash
 python main.py --archive UEA --dataset ArticularyWordRecognition --corruption_dataset InsectSound --noise_type symmetric --label_noise_rate 0.2 --ood_noise_rate 0.2 --data_dir  dataset_address --corruption_data_dir corruption_dataset_address
