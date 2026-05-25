@@ -28,6 +28,10 @@ The overall architecture of TempoCL, with its core workflow as follows: (1) TASS
 * [ECG5000 dataset](https://www.timeseriesclassification.com/)
 * [RacketSports dataset](https://www.timeseriesclassification.com/)
 
+### Corrupted time series datasets
+
+* [InsectSound dataset](https://www.timeseriesclassification.com/)
+
 ## Usage
 Install Pytorch and the necessary dependencies.
 
@@ -44,13 +48,3 @@ python main.py --archive UEA --dataset ArticularyWordRecognition --noise_type sy
 ## Citation
 
 If you use this code for your research, please cite our paper:
-```
-@article{liu2026robust,
-  title={Robust learning with time series noisy labels via self-supervised learning and soft labels refurbishment},
-  author={Liu, Jiarong and Yang, Kaixiang and He, Jian and Yang, Chengrong and Yang, Shuang-hua and Zhou, Yujue},
-  journal={Neurocomputing},
-  pages={133059},
-  year={2026},
-  publisher={Elsevier}
-}
-```
