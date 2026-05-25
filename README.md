@@ -10,7 +10,7 @@ Extensive experiments on diverse standard time series datasets confirm TempoCL s
 
 ## Overall Architecture
 
-RoRLNet decouples feature extraction from classifier training to learn noise-robust spatio-temporal representations via MSSFE and utilizes EnBootstrap to stabilize supervision by ensembling historical and cross-model predictions.
+The overall architecture of TempoCL, with its core workflow as follows: (1) TASS first selects clean samples via a loss-based GMM, then labels noisy samples and separates closed-set from open-set noise by leveraging the absence of predefined categories for the latter. (2) MvTCL enforces same-scale consistency and different-scale complementarity to improve model robustness against label noise.
 
 <p align="center">
 <img src="./figures/RoRLNet.png" alt="RoRLNet" align=center />
