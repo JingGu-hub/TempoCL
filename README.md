@@ -13,7 +13,7 @@ Extensive experiments on diverse standard time series datasets confirm TempoCL s
 The overall architecture of TempoCL, with its core workflow as follows: (1) TASS first selects clean samples via a loss-based GMM, then labels noisy samples and separates closed-set from open-set noise by leveraging the absence of predefined categories for the latter. (2) MvTCL enforces same-scale consistency and different-scale complementarity to improve model robustness against label noise.
 
 <p align="center">
-<img src="./figures/TempoCL.png" alt="TempoCL" align=center />
+<img src="./figs/TempoCL.png" alt="TempoCL" align=center />
 </p>
 
 ## Datasets
