@@ -25,7 +25,8 @@ The overall architecture of TempoCL, with its core workflow as follows: (1) TASS
 ### Two individual large time series datasets
 
 * [HAR dataset](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones)
-* [ArabicDigits dataset](https://www.mustafabaydogan.com/research/time-series-data-mining/symbolic-representations-for-multivariate-time-series-classification-smts/)
+* [ECG5000 dataset](https://www.timeseriesclassification.com/)
+* [RacketSports dataset](https://www.timeseriesclassification.com/)
 
 ## Usage
 Install Pytorch and the necessary dependencies.
